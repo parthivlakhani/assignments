@@ -1,5 +1,6 @@
 
 //  Implement an authentication middleware that checks for a valid API key in the request headers.
+//  If not vali API key then send 401 with message 'Invalid or missing API key'
 
 const express = require('express');
 const app = express();
